@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ItemsRepeaterOutsideRenderingBugSample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ItemsRepeaterOutsideRenderingBugSample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
