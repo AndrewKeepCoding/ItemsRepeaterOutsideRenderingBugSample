@@ -12,12 +12,12 @@
             <NumberBox x:Name="ItemsCountControl" Value="200000" />
             <Button Click="Button_Click" Content="Create items" />
         </StackPanel>
-        <ScrollViewer
+        <ScrollView
             Grid.Row="1"
             BorderBrush="HotPink"
             BorderThickness="2">
             <ItemsRepeater x:Name="ItemsRepeaterControl" />
-        </ScrollViewer>
+        </ScrollView>
         <TextBlock Grid.Row="2" Text="Bottom" />
     </Grid>
 </Window>
